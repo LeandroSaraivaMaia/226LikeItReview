@@ -17,9 +17,30 @@ namespace _226LikeIt.Features
             this.myName = getMyName();
         }
 
+        public void UpdateCounter(Media likedMedia, bool isLike)
+        {
+            try
+            {
+                Tuple<int, int> votes;
 
-        //TODO
+                if (isLike)
+                {
+                    votes = new Tuple<int, int>(likedMedia.CounterVotes.Item1 + 1, likedMedia.CounterVotes.Item2);
+                }
+                else
+                {
+                    votes = new Tuple<int, int>(likedMedia.CounterVotes.Item1, likedMedia.CounterVotes.Item2 + 1);
+                }
 
+                likedMedia.CounterVotes = votes;
+
+                messenger.DisplayMessageOnConsole(getMyName(), "Vous avez voter pour le media : \"" + likedMedia.Name + "." + likedMedia.Format + "\"");
+            }
+            catch
+            {
+                messenger.DisplayMessageOnConsole(getMyName(), "ERREUR lors du vote du media : \"" + likedMedia.Name + "." + likedMedia.Format + "\"");
+            }
+        }
 
         private String getMyName()
         {

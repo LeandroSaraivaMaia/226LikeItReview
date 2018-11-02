@@ -11,6 +11,8 @@ namespace _226LikeIt
     {
         static private Messenger messenger = new Messenger();
         static private Viewer viewer = new Viewer(messenger);
+        static private Features.Liker liker = new Features.Liker(messenger);
+        static private Features.Share share = new Features.Share(messenger);
         static private List<Media> listOfMedia = null;
 
         static void Main(string[] args)
@@ -21,9 +23,12 @@ namespace _226LikeIt
             /*********1er scenario - début *************/
             //lecture de la première vidéo - jusqu'à la fin de la lecture
             viewer.ReadMedia(listOfMedia[0]);
-
-            //TODO
+            
             //le youtuber désire voter sur la vidéo qu'il vient de voir
+            Vote(listOfMedia[0], true);
+
+            //le youtuber désire partager la vidéo qu'il vient de voir
+            share.shareMedia(listOfMedia[0], "leandro262009@gmail.com");
 
 
             /*********1er scenario - fin **********/
@@ -48,6 +53,11 @@ namespace _226LikeIt
 
             messenger.DisplayMessageOnConsole("YouTuber", "L'initialisation de l'application est terminée.");
             return listOfMedia;
+        }
+
+        static private void Vote(Media media, bool isLike)
+        {
+            liker.UpdateCounter(media, isLike);
         }
     }
 }

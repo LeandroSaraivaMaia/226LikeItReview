@@ -12,3 +12,10 @@ E:\Dropbox\CPNV\226\226LikeItReview\226LikeIt\obj\Debug\226LikeIt.csprojAssembly
 E:\Dropbox\CPNV\226\226LikeItReview\226LikeIt\obj\Debug\226LikeIt.csproj.CoreCompileInputs.cache
 E:\Dropbox\CPNV\226\226LikeItReview\226LikeIt\obj\Debug\226LikeIt.exe
 E:\Dropbox\CPNV\226\226LikeItReview\226LikeIt\obj\Debug\226LikeIt.pdb
+C:\GIT\226LikeItReview\226LikeIt\bin\Debug\226LikeIt.exe.config
+C:\GIT\226LikeItReview\226LikeIt\bin\Debug\226LikeIt.exe
+C:\GIT\226LikeItReview\226LikeIt\bin\Debug\226LikeIt.pdb
+C:\GIT\226LikeItReview\226LikeIt\obj\Debug\226LikeIt.csprojAssemblyReference.cache
+C:\GIT\226LikeItReview\226LikeIt\obj\Debug\226LikeIt.csproj.CoreCompileInputs.cache
+C:\GIT\226LikeItReview\226LikeIt\obj\Debug\226LikeIt.exe
+C:\GIT\226LikeItReview\226LikeIt\obj\Debug\226LikeIt.pdb

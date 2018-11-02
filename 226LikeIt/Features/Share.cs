@@ -17,9 +17,20 @@ namespace _226LikeIt.Features
             this.myName = getMyName();
         }
 
+        public void shareMedia(Media sharedMedia, string emailAddress)
+        {
+            try
+            {
 
-        //TODO
+                //Simulation of actual share action
 
+                messenger.DisplayMessageOnConsole(getMyName(), "Vous avez partage le media \"" + sharedMedia.Name + "." + sharedMedia.Format + "\" a : " + emailAddress);
+            }
+            catch
+            {
+                messenger.DisplayMessageOnConsole(getMyName(), "ERREUR lors du partage du media : \"" + sharedMedia.Name + "." + sharedMedia.Format + "\"");
+            }
+        }
 
         private String getMyName()
         {

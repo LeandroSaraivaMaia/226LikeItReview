@@ -14,6 +14,11 @@ namespace _226LikeIt
         private int durationInSec;
         private Tuple<int, int> counterVotes;
 
+        #region added accessor
+        public Tuple<int, int> CounterVotes { get { return counterVotes; } set { counterVotes = value; } }
+        public String Format { get { return format; } }
+        #endregion added accessor
+
         public Media(String name, String format, int durationInSec, List<int> availableResolution)
         {
             this.name = name;
