@@ -1,0 +1,14 @@
+C:\Users\Nicolas Glassey\Documents\Visual Studio 2017\Projects\226LikeIt\226LikeIt\bin\Debug\226LikeIt.exe.config
+C:\Users\Nicolas Glassey\Documents\Visual Studio 2017\Projects\226LikeIt\226LikeIt\bin\Debug\226LikeIt.exe
+C:\Users\Nicolas Glassey\Documents\Visual Studio 2017\Projects\226LikeIt\226LikeIt\bin\Debug\226LikeIt.pdb
+C:\Users\Nicolas Glassey\Documents\Visual Studio 2017\Projects\226LikeIt\226LikeIt\obj\Debug\226LikeIt.csprojAssemblyReference.cache
+C:\Users\Nicolas Glassey\Documents\Visual Studio 2017\Projects\226LikeIt\226LikeIt\obj\Debug\226LikeIt.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas Glassey\Documents\Visual Studio 2017\Projects\226LikeIt\226LikeIt\obj\Debug\226LikeIt.exe
+C:\Users\Nicolas Glassey\Documents\Visual Studio 2017\Projects\226LikeIt\226LikeIt\obj\Debug\226LikeIt.pdb
+E:\Dropbox\CPNV\226\226LikeItReview\226LikeIt\bin\Debug\226LikeIt.exe.config
+E:\Dropbox\CPNV\226\226LikeItReview\226LikeIt\bin\Debug\226LikeIt.exe
+E:\Dropbox\CPNV\226\226LikeItReview\226LikeIt\bin\Debug\226LikeIt.pdb
+E:\Dropbox\CPNV\226\226LikeItReview\226LikeIt\obj\Debug\226LikeIt.csprojAssemblyReference.cache
+E:\Dropbox\CPNV\226\226LikeItReview\226LikeIt\obj\Debug\226LikeIt.csproj.CoreCompileInputs.cache
+E:\Dropbox\CPNV\226\226LikeItReview\226LikeIt\obj\Debug\226LikeIt.exe
+E:\Dropbox\CPNV\226\226LikeItReview\226LikeIt\obj\Debug\226LikeIt.pdb
